@@ -82,7 +82,7 @@ export function Hero({ ready, sharedStage }: Props) {
 
         {/* RIGHT: role + rolling word */}
         <div className="hero-right mt-6 md:mt-0 md:text-right">
-          <p className="hero-role-intro font-display text-lg tracking-wide text-soft md:text-2xl">Software Engineer &amp;</p>
+          <p className="hero-role-intro font-display text-lg tracking-wide text-soft md:text-2xl">Software Developer building</p>
           <div className="hero-roles relative mt-1 overflow-hidden font-display text-[clamp(2rem,3.5vw,3.6rem)] leading-[1.05] font-semibold tracking-tight text-accent-bright uppercase">
             {/* invisible sizer: reserves the width of the longest word */}
             <span className="invisible block whitespace-nowrap" aria-hidden="true">
