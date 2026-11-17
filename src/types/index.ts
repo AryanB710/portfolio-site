@@ -16,6 +16,8 @@ export interface Project {
   liveUrl: string;
   /** Optional screenshot in /public/images/projects. If empty, a generated visual is shown. */
   image?: string;
+    /** Screenshots shown in the case-study pop-up. The first one is also the project's picture. */
+  screenshots?: { src: string; caption: string }[];
   /** Which built-in visual to render when no image is set. */
   visual: 'geo' | 'eval' | 'recon' | 'placeholder';
   /** Period shown on the card, e.g. 'Apr 2026 – Oct 2026' */
