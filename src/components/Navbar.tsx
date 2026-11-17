@@ -38,7 +38,7 @@ export function Navbar({ visible }: { visible: boolean }) {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 bg-gradient-to-b from-ink via-ink/80 to-transparent transition-all duration-700 ${visible ? 'translate-y-0 opacity-100' : '-translate-y-6 opacity-0'}`}
+      className={`fixed inset-x-0 top-0 z-50 bg-ink/85 backdrop-blur-md transition-all duration-700 ${visible ? 'translate-y-0 opacity-100' : '-translate-y-6 opacity-0'}`}
     >
       <nav aria-label="Main" className="flex h-20 items-center justify-between px-6 md:px-11">
         <a
