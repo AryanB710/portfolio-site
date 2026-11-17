@@ -84,13 +84,6 @@ function FeaturedProject({ project, onOpen, flip }: { project: Project; onOpen: 
         </ul>
 
         <div className="mt-8 flex flex-wrap items-center gap-3">
-          <button
-            type="button"
-            onClick={onOpen}
-            className="inline-flex min-h-12 items-center gap-2 rounded-full bg-accent px-6 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:shadow-[0_10px_40px_-10px_rgba(21,158,145,0.8)]"
-          >
-            Explore project <ArrowUpRight size={16} />
-          </button>
           {project.githubUrl && (
             <a
               href={project.githubUrl}
