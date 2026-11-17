@@ -60,7 +60,6 @@ export const aboutCopy = {
   /** Personal journey timeline — edit freely. Leave year '' if unsure. */
   journey: [
     { year: '2023', title: 'Started B.E. in CSE at MITE', text: 'Built foundations in programming, data structures, OOP and databases.' },
-    { year: '2024', title: 'SAP HackFest 2024', text: 'First hackathon: building under time pressure with a team.' },
     { year: '2026', title: 'Script-to-Location Recommender', text: 'Final-year project combining semantic search, sentiment and the Google Places API.' },
     { year: '2026', title: 'EvalTrack & Payment Reconciliation', text: 'Shipped an LLM regression-testing platform and a reconciliation tool, both test-driven.' },
     { year: '2027', title: 'AICCoNS paper & graduation', text: 'Oral presentation at Springer AICCoNS 2027, Dubai; graduating in 2027.' },
