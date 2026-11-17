@@ -9,7 +9,7 @@ import { waveHello } from '../three/events';
 const HeroScene = lazy(() => import('../three/HeroScene'));
 
 /** Words that roll on the right side of the hero. Edit freely. */
-const ROLES = ['AI Engineer', 'Developer', 'Builder'];
+const ROLES = ['LLM Apps', 'NLP Apps', 'Python APIs'];
 
 interface Props {
   ready: boolean;
@@ -66,7 +66,7 @@ export function Hero({ ready, sharedStage }: Props) {
       )}
 
       <h1 className="sr-only">
-        {profile.name} — Computer Science Engineer, AI Engineer and Developer
+        {profile.name} — Software Developer building NLP and LLM applications
       </h1>
 
       <div className="pointer-events-none relative z-10 mx-auto flex h-full max-w-[1500px] flex-col justify-end px-6 pb-28 md:flex-row md:items-center md:justify-between md:px-24 md:pb-0 lg:px-28">
