@@ -52,15 +52,7 @@ export const experience: TimelineEntry[] = [
     organisation: 'Local indoor sports association',
     period: '',
     description: 'Lead the association; district-level medalist in badminton.',
-  },
-  {
-    id: 'sap-hackfest',
-    category: 'activity',
-    title: 'SAP HackFest 2024',
-    organisation: 'Participant',
-    period: '2024',
-    description: 'Took part in SAP HackFest, building a solution with a team under hackathon time limits.',
-  },
+  }, 
 ];
 
 export const categoryLabel: Record<TimelineEntry['category'], string> = {
