@@ -76,7 +76,7 @@ export function Contact() {
       <div aria-hidden="true" className="pointer-events-none absolute bottom-0 left-1/2 h-[60vmax] w-[60vmax] -translate-x-1/2 translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(21,158,145,0.18),transparent_60%)]" />
       <div className="container-x relative">
         <div className="mb-8 flex items-center gap-4" data-reveal>
-          <span className="font-mono text-xs text-muted">06</span>
+          <span className="font-mono text-xs text-muted">07</span>
           <span className="h-px w-10 bg-accent" />
           <span className="eyebrow">Contact</span>
         </div>
