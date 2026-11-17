@@ -27,8 +27,6 @@ const STACK: StackItem[] = [
   { name: 'S-BERT', color: '#159e91' },
   { name: 'Groq', color: '#f472b6' },
   { name: 'VADER', color: '#a78bfa' },
-  { name: 'Tableau', color: '#2563eb' },
-  { name: 'Figma', color: '#ec4899' },
   { name: 'REST', color: '#14b8a6' },
 ];
 
