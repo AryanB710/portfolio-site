@@ -91,7 +91,7 @@ function FeaturedProject({ project, onOpen, flip }: { project: Project; onOpen: 
               rel="noopener noreferrer"
               className="inline-flex min-h-12 items-center gap-2 rounded-full border border-line-strong px-5 text-sm transition-colors hover:border-accent"
             >
-              <GithubIcon size={16} /> Code
+              <GithubIcon size={16} /> View on GitHub
             </a>
           )}
           {project.liveUrl && (
