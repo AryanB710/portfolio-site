@@ -56,11 +56,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Git / GitHub', level: 'working', icon: 'github' },
       { name: 'GitHub Actions', level: 'working', icon: 'actions' },
       { name: 'Postman', level: 'working', icon: 'postman' },
-      { name: 'VS Code', level: 'working', icon: 'vscode' },
-      { name: 'IntelliJ IDEA', level: 'working', icon: 'intellij' },
-      { name: 'Figma', level: 'working', icon: 'figma' },
-      { name: 'Tableau', level: 'working', icon: 'tableau' },
-    ],
+      ],
   },
   {
     id: 'ai-data',
@@ -74,8 +70,6 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Groq LLM API', level: 'working', icon: 'llm' },
       { name: 'Prompt Engineering', level: 'working', icon: 'prompt' },
       { name: 'LLM Evaluation', level: 'working', icon: 'test' },
-      { name: 'Machine Learning', level: 'learning', icon: 'ml' },
-      { name: 'Generative AI', level: 'learning', icon: 'genai' },
     ],
   },
 ];
