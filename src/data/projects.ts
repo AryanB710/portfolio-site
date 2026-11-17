@@ -37,6 +37,10 @@ export const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/AryanB710/location-recommendation-system',
     liveUrl: '',
+        screenshots: [
+      { src: '/images/location-1.webp', caption: 'Ranked shooting locations for each scene of the script' },
+      { src: '/images/location-2.webp', caption: '"Why this place?" score breakdown for a recommended location' },
+    ],
     visual: 'geo',
   },
   {
@@ -67,6 +71,9 @@ export const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/AryanB710/evaltrack',
     liveUrl: '',
+        screenshots: [
+      { src: '/images/evaltrack-1.webp', caption: 'Comparing prompt versions on pass rate, latency and cost' },
+    ],
     visual: 'eval',
   },
   {
@@ -95,6 +102,9 @@ export const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/AryanB710/payment-reconciliation-tracker',
     liveUrl: '',
+        screenshots: [
+      { src: '/images/recon-1.webp', caption: 'Exception dashboard after a reconciliation run' },
+    ],
     visual: 'recon',
   },
 ];
