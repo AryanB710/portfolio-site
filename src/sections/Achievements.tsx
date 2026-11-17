@@ -22,7 +22,7 @@ export function Achievements() {
       <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-line-strong to-transparent" />
       <div className="container-x">
         <SectionHeading
-          index="05"
+          index="06"
           eyebrow="Achievements & certifications"
           title={
             <>
