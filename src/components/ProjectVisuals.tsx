@@ -193,7 +193,10 @@ export function ReconVisual({ animated = true }: { animated?: boolean }) {
 /** Picks the right visual (or screenshot) for a project. */
 export function ProjectVisual({ project, animated = true }: { project: Project; animated?: boolean }) {
   if (project.image) {
-    return <img src={project.image} alt={`${project.title} preview`} className="h-full w-full object-cover" loading="lazy" decoding="async" />;
+      const cover = project.image || project.screenshots?.[0]?.src;
+  if (cover) {
+    return <img src={cover} alt={`${project.title} screenshot`} className="h-full w-full object-cover object-top" loading="lazy" decoding="async" />;
+  }
   }
   if (project.visual === 'eval') return <EvalVisual animated={animated} />;
   if (project.visual === 'recon') return <ReconVisual animated={animated} />;
