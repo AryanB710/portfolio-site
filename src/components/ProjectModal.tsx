@@ -109,7 +109,27 @@ export function ProjectModal({ project, onClose }: Props) {
               <p className="mt-3 leading-relaxed text-soft">{project.solution}</p>
             </div>
           </div>
-
+          {project.screenshots && project.screenshots.length > 0 && (
+            <div className="mt-10" data-modal-item>
+              <h4 className="font-mono text-xs tracking-widest text-muted uppercase">Screenshots</h4>
+              <div className="mt-4 grid gap-5 sm:grid-cols-2">
+                {project.screenshots.map((shot) => (
+                  <figure key={shot.src}>
+                    <a
+                      href={shot.src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block overflow-hidden rounded-2xl border border-line transition-colors hover:border-accent"
+                      aria-label={`Open full-size screenshot: ${shot.caption}`}
+                    >
+                      <img src={shot.src} alt={shot.caption} className="w-full" loading="lazy" decoding="async" />
+                    </a>
+                    <figcaption className="mt-2 text-sm text-muted">{shot.caption}</figcaption>
+                  </figure>
+                ))}
+              </div>
+            </div>
+          )}
           <div className="mt-10 grid gap-10 md:grid-cols-[1.3fr_1fr]">
             <div data-modal-item>
               <h4 className="font-mono text-xs tracking-widest text-muted uppercase">Key features</h4>
