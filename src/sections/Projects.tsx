@@ -171,7 +171,7 @@ export function Projects() {
     <section id="projects" ref={root} className="section">
       <div className="container-x">
         <SectionHeading
-          index="04"
+          index="05"
           eyebrow="My work"
           title={
             <>
