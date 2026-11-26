@@ -13,6 +13,7 @@ import { AboutStage } from './sections/AboutStage';
 import { WhatIDo } from './sections/WhatIDo';
 import { Career } from './sections/Career';
 import { Projects } from './sections/Projects';
+import WhatIUse from './sections/WhatIUse';
 import { TechStack } from './sections/TechStack';
 import { Achievements } from './sections/Achievements';
 import { Resume } from './sections/Resume';
@@ -108,6 +109,7 @@ export default function App() {
             <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 -top-40 h-40 bg-gradient-to-b from-transparent to-ink" />
             <Career />
             <Projects />
+            <WhatIUse />
             <TechStack />
             <Achievements />
             <Resume />
