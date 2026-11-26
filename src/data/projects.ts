@@ -37,7 +37,7 @@ export const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/AryanB710/location-recommendation-system',
     liveUrl: '',
-        screenshots: [
+    screenshots: [
       { src: '/images/location-1.webp', caption: 'Ranked shooting locations for each scene of the script' },
       { src: '/images/location-2.webp', caption: '"Why this place?" score breakdown for a recommended location' },
     ],
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/AryanB710/evaltrack',
     liveUrl: '',
-        screenshots: [
+    screenshots: [
       { src: '/images/evaltrack-1.webp', caption: 'Comparing prompt versions on pass rate, latency and cost' },
     ],
     visual: 'eval',
@@ -102,9 +102,36 @@ export const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/AryanB710/payment-reconciliation-tracker',
     liveUrl: '',
-        screenshots: [
+    screenshots: [
       { src: '/images/recon-1.webp', caption: 'Exception dashboard after a reconciliation run' },
     ],
     visual: 'recon',
+  },
+  {
+    id: 'ask-my-docs',
+    index: '04',
+    title: 'Ask My Docs — Production RAG with Observability',
+    shortTitle: 'Ask My Docs',
+    tagline: 'Ask questions about your own documents — with every answer traced, monitored and tested.',
+    status: 'in-progress',
+    year: 'Nov 2026 – Present',
+    problem:
+      'Most RAG demos work once on a laptop and then break silently. Without tracing and automated evaluation, there is no way to know when retrieval or answer quality gets worse.',
+    solution:
+      'A retrieval-augmented Q&A system over your own documents, built like a production service: per-query tracing and monitoring, plus an evaluation suite that runs in CI and blocks changes when answer quality drops.',
+    stack: ['Python', 'GitHub Actions'],
+    features: [
+      'Answers questions over your own documents using retrieval-augmented generation',
+      'Observability: tracing and monitoring for every query',
+      'CI evaluation gate that fails the build when answer quality regresses',
+      'Currently in active development',
+    ],
+    metrics: [],
+    githubUrl: 'https://github.com/AryanB710/ask-my-docs',
+    liveUrl: '',
+    screenshots: [
+      { src: '/images/ask-my-docs.webp', caption: 'Ask My Docs answering a question over uploaded documents' },
+    ],
+    visual: 'eval',
   },
 ];

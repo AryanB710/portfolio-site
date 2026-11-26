@@ -34,7 +34,7 @@ export const profile = {
 
 /** Headline numbers — every one comes straight from the resume. */
 export const highlights = [
-  { value: '3', label: 'Projects on GitHub' },
+  { value: '4', label: 'Projects on GitHub' },
   { value: '150+', label: 'Automated pytest tests written' },
   { value: '1', label: 'Springer paper accepted' },
 ] as const;

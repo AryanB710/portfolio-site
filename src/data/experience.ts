@@ -18,6 +18,16 @@ export const experience: TimelineEntry[] = [
       'Coursework across programming, OOP, data structures and DBMS, with a focus on applied AI and NLP in my projects.',
     tags: ['Python', 'Java', 'DBMS', 'OOP'],
   },
+    {
+    id: 'ask-my-docs',
+    category: 'project',
+    title: 'Ask My Docs',
+    organisation: 'Production RAG with observability',
+    period: 'Nov 2026 — Present',
+    description:
+      'Answers questions over your own documents with retrieval-augmented generation, with tracing on every query and a CI eval gate that blocks quality drops. In progress.',
+    tags: ['Python', 'GitHub Actions'],
+  },
   {
     id: 'project-location',
     category: 'project',
@@ -27,6 +37,16 @@ export const experience: TimelineEntry[] = [
     description:
       'Ranks real filming locations per script scene with sentence embeddings, review sentiment and the Google Places API. Paper accepted at Springer AICCoNS 2027.',
     tags: ['Sentence-Transformers', 'VADER', 'pytest'],
+  },
+  {
+    id: 'payment-reconciliation',
+    category: 'project',
+    title: 'Payment Reconciliation & Exception Tracker',
+    organisation: 'Orders, payments & settlements matching',
+    period: 'Nov 2026',
+    description:
+      'Reconciles orders, payments and settlements with explicit matching rules and routes every exception to a tracked dashboard. 84.8% auto-matched on a 204-order sample.',
+    tags: ['Python', 'pytest', 'CSV data processing'],
   },
   {
     id: 'project-evaltrack',
